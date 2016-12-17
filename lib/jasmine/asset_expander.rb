@@ -56,7 +56,7 @@ module Jasmine
             when "text/css"
               path_to_stylesheet(processed_asset.logical_path, debug: true)
             when "application/javascript"
-              path_to_javascript(processed_asset.logical_path, debug: true).gsub(/^\//,"")
+              path_to_javascript(processed_asset.logical_path, debug: true)
             end
           end
         end
