@@ -28,5 +28,3 @@ end
 if Jasmine::Dependencies.rails?
   require File.join('jasmine', 'railtie')
 end
-
-
